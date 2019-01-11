@@ -1,0 +1,10 @@
+{
+  "name": "node-puppets",
+  "description": "a pool of puppeteer page",
+  "main": "node-puppets.js",
+  "license": "MIT",
+  "dependencies": {
+    "generic-pool": "^3.4.2",
+    "puppeteer": "^1.11.0"
+  }
+}

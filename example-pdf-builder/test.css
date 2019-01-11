@@ -1,0 +1,14 @@
+    @media print {
+        p {page-break-inside: avoid;}
+        h1 {page-break-before: always;}
+        footer {page-break-after: always;}
+    }
+    @page
+    {
+        size: letter landscape;
+        margin: 0;
+    }
+    body {
+        font-family: Verdana !important;
+        margin: 10px;
+    }
